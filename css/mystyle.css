@@ -1,1 +1,145 @@
 
+*{  box-sizing: border-box;
+    padding: 0px;
+    border: 0px ;
+
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#tab{
+	background-color: gray;
+	width:430px;
+	height: 150px;
+	border:1px solid black;
+	padding: 3px;
+	float: left;
+	margin:10px;
+	position: relative;
+}
+#tab1{
+	background-color: gray;
+	width:430px;
+	height: 150px;
+	border:1px solid black;
+	padding: 3px;
+	float: left;
+	margin:10px;
+	position: relative;
+}
+
+#tab2{
+	background-color: gray;
+	width:430px;
+	height: 150px;
+	border:1px solid black;
+	padding: 3px;
+	float: left;
+	margin:10px;
+	position: relative;
+}
+
+#t1{
+	border:1px solid black;
+	width:70px;
+	height:20px;
+	text-align: center;
+	background-color: pink;
+	position: absolute;
+	top:-16px;
+	right:0px;
+}
+
+#t2{
+	border:1px solid black;
+	width:70px;
+	height:20px;
+	text-align: center;
+	background-color: red;
+	position: absolute;
+	top:-16px;
+	right:0px;
+}
+
+#t3{
+	border:1px solid black;
+	width:70px;
+	height:20px;
+	text-align: center;
+	background-color: fuchsia;
+	position: absolute;
+	top:-16px;
+	right:0px;
+}
+
+@media(min-width: 300px) and (max-width: 767px){
+
+	body{
+		padding:5px;
+		margin:10px;
+	}
+	#tab{
+		width: 95%;
+	}
+	#tab1{
+		width: 95%;
+	}
+	#tab2{
+		width: 95%;
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	body{
+		padding:5px;
+		margin:10px;
+	}
+
+
+    #tab{
+		width:47.3%
+	}
+	#tab1{
+		width:47.3%;
+		float:right;
+	}
+	#tab2{
+		
+		clear: both;
+		width:auto;
+		float:none;
+
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1500px){
+
+	body{
+		padding:10px;
+		margin:30px;
+	}
+	 #tab{
+		width:31.1%;
+		float:left;
+
+	}
+	#tab1{
+		width:31.1%;
+		float:left;
+	}
+	#tab2{
+		
+		width:31.1%;
+		float:left;
+
+	}
+}
+
+
+
